@@ -105,6 +105,8 @@ void setup() {
     Serial.println("OLED initialization failed!");
     while(1);
   }
+
+  setDisplay(" ");
 }
 
 void loop() {
